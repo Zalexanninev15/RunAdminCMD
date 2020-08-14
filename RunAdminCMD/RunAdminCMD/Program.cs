@@ -702,13 +702,13 @@ namespace RunAdminCMD
 			}
 			catch
 			{
-				MessageBox.Show("Невозможно запустить процесс от имени Администратора!", "Предупреждение", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+				MessageBox.Show("It is not possible to start the process as an Administrator!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 			}
 			Application.Exit();
 			}
 			catch 
 			{
-				MessageBox.Show("Нехватает данных!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				MessageBox.Show("Not enough data!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 			}
 	}
