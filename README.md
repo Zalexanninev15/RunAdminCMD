@@ -1,11 +1,11 @@
 # RunAdminCMD | [Latest release](https://github.com/Zalexanninev15/RunAdminCMD/releases/tag/1.1)
 ![](https://i.imgur.com/NZpREOk.png)
 ## Description
-Utility for running files and scripts as an Administrator. Created to quickly grant Administrator rights to BAT/CMD files.
+Utility for running files and scripts as Administrator. Created to quickly grant Administrator rights to BAT/CMD files.
 ## How to interact?
 **Is required .NET Framework 4.0!**
 ### Version 1.1 ([Download](https://github.com/Zalexanninev15/RunAdminCMD/releases/download/1.1/RunAdminCMD.exe))
-Run the utility's executable file with a parameter that will contain the path to/name of the file to run as Administrator
+Run the utility's executable file with a argument that will contain the path to/name of the file to run as Administrator
 
 **Example for cmd:**
 
