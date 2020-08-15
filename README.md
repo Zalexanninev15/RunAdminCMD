@@ -21,7 +21,7 @@ RunAdminCMD "C:\scripts wifi\Enable WiFi.cmd" 0
 **Example for cmd (running with an argument):**
 
 ```
-RunAdminCMD vcfc.bat google.com
+RunAdminCMD PingCMD.bat google.com
 ```
 *To add support to the BAT/CMD file, you need to insert the element "%1%" in the section of the script that should accept it. [Here](https://github.com/Zalexanninev15/RunAdminCMD/blob/master/PingCMD.bat) is an example using the "ping" utility in a batch script.* 
 
