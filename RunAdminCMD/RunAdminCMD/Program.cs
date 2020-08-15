@@ -688,29 +688,35 @@ namespace RunAdminCMD
 {
 	class Program
 	{
-		public static void Main(string[] args)
+	  public static void Main(string[] args)
 		{
-			Console.Title = "RunAdminCMD v1.0 by Zalexanninev15";
-			try
+	  	    Console.Title = "RunAdminCMD";
+			if (args.Length != 0)
 			{
-			string[] cmd_cfg = System.IO.File.ReadAllLines("cmd.cfg");
-			ProcessStartInfo cmd_loader = new ProcessStartInfo();
-			cmd_loader.Verb = "runas";
-			cmd_loader.FileName = @cmd_cfg[0];
-			try
+			    try
+			    {
+			       ProcessStartInfo cmd_loader = new ProcessStartInfo();
+			       cmd_loader.Verb = "runas";
+			       cmd_loader.FileName = @args[0];
+			       try
+			        {
+				        Process.Start(cmd_loader);
+			        }
+			       catch
+			       {
+				    MessageBox.Show("It is not possible to start the process as an Administrator!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+			        }
+			     }
+			     catch 
+			     {
+				MessageBox.Show("Invalid data!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			     }
+			}
+			else
 			{
-				Process.Start(cmd_loader);
+				MessageBox.Show("RunAdminCMD v1.1 by Zalexanninev15", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
 			}
-			catch
-			{
-				MessageBox.Show("It is not possible to start the process as an Administrator!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-			}
-			Application.Exit();
-			}
-			catch 
-			{
-				MessageBox.Show("Not enough data!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-			}
-			}
+		    Application.Exit();
+		}
 	}
 }
