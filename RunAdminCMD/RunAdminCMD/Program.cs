@@ -696,8 +696,9 @@ namespace RunAdminCMD
 			    try
 			    {
 			       ProcessStartInfo cmd_loader = new ProcessStartInfo();
-			       cmd_loader.Verb = "runas";
+//			       cmd_loader.Verb = "runas"; // If is not "level="requireAdministrator"" in app.manifest
 			       cmd_loader.FileName = @args[0];
+                   cmd_loader.Arguments = @args[1];
 			       try
 			        {
 				        Process.Start(cmd_loader);
@@ -714,7 +715,7 @@ namespace RunAdminCMD
 			}
 			else
 			{
-				MessageBox.Show("RunAdminCMD v1.1 by Zalexanninev15", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+				MessageBox.Show("RunAdminCMD v1.1b by Zalexanninev15", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
 			}
 		    Application.Exit();
 		}
