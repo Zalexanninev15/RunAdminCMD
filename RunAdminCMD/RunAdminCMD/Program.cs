@@ -690,6 +690,7 @@ namespace RunAdminCMD
 	{
 		public static void Main(string[] args)
 		{
+			Console.Title = "RunAdminCMD v1.0 by Zalexanninev15";
 			try
 			{
 			string[] cmd_cfg = System.IO.File.ReadAllLines("cmd.cfg");
