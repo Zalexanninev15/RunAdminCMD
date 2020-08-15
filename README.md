@@ -15,10 +15,10 @@ RunAdminCMD C:\Windows\explorer.exe
 
 *If the path to/file name has "spaces", then you must put quotation marks ("")*
 
-**Example for cmd (with quotation marks):**
+**Example for cmd (with "spaces"):**
 
 ```
-RunAdminCMD C:\scripts wifi\Enable WiFi.cmd
+RunAdminCMD "C:\scripts wifi\Enable WiFi.cmd"
 ```
 
 ### Version 1.0 ([Download](https://github.com/Zalexanninev15/RunAdminCMD/releases/download/1.0/RunAdminCMD.zip))
