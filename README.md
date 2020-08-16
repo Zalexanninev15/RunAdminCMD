@@ -60,3 +60,7 @@ RunAdminCMD -f 10 /next
 *To add support to the BAT/CMD file, you need to insert the element "%1%" in the section of the script that should accept it. [Here](https://github.com/Zalexanninev15/RunAdminCMD/blob/master/PingCMD.bat) is an example using the "ping" utility in a batch script.* 
 
 *You can't use quotation marks ("") to support "spaces" (in arguments); only run an argument with "spaces" from a list file (not use quotation marks)!*
+
+## Build
+
+Compile using Visual Studio 2017/2019 or SharpDevelop
