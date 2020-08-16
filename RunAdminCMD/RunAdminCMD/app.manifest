@@ -3,7 +3,7 @@
 	<assemblyIdentity
 		version="1.0.0.0"
 		processorArchitecture="X86"
-		name="1000.RunAdminCMD.RunAdminCMD"
+		name="Zalexanninev15.RunAdminCMD.RunAdminCMD"
 		type="win32"
 	/>
 	<description>RunAdminCMD</description>
