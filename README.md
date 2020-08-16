@@ -3,7 +3,7 @@
 ## Description
 Utility for running files and scripts as Administrator. Created to quickly grant Administrator rights to BAT/CMD files.
 ## How to interact?
-**Is required .NET Framework 4.5!**
+**Is required .NET Framework 4.5 or 4.0!**
 
 ### Run with arguments
 
@@ -49,7 +49,7 @@ RunAdminCMD -f 10 -reset
 
 **or**
 
-**Run an argument from a list file (used the next line after the one you specified to run the file)  **
+**Run an argument from a list file (used the next line after the one you specified to run the file)**
 
 **(ex.  line 10, argument in line 11):**
 
