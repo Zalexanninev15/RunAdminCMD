@@ -3,7 +3,7 @@
 ## Description
 Utility for running files and scripts as Administrator. Created to quickly grant Administrator rights to BAT/CMD files.
 ## How to interact?
-**Is required .NET Framework 4.5 or 4.0!**
+**Is required .NET Framework 4.5 and Windows 7-10!**
 
 ### Run with arguments
 
@@ -16,6 +16,7 @@ RunAdminCMD C:\Windows\explorer.exe 0
 ```
 
 **Example for cmd (with "spaces"):**
+
 *If the path to/file name has "spaces", then you must put quotation marks ("")*
 
 ```
