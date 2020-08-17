@@ -32,7 +32,7 @@ RunAdminCMD PingCMD.bat google.com
 *You can't use quotation marks ("") to support "spaces" (in arguments)!*
 
 ### Run using a file "list.txt"
-1. In the "list.cfg" file (open using [Notepad++](https://notepad-plus-plus.org/)), enter the path to the file that needs Administrator rights (it is better to just put the desired file in the folder with the utility and just write the file name of this file).
+1. In the "list.txt" file (open using [Notepad++](https://notepad-plus-plus.org/)), enter the path to the file that needs Administrator rights (it is better to just put the desired file in the folder with the utility and just write the file name of this file).
 
 2. Run the utility:
 
