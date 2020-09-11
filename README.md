@@ -40,9 +40,17 @@ RunAdminCMD PingCMD.bat google.com
 RunAdminCMD -f 1 0
 ```
 
-*Where the second argument is a number indicating the number of the line with the desired file!*
+*Where the second argument is a number indicating the number of the line with the desired file!*
 
-**Run an argument from a list.txt file (used the next line after the one you specified to run the file)**
+**It is also possible to run with an argument for other file (ex: line 10, argument "-reset"):**
+
+```
+RunAdminCMD -f 10 -reset
+```
+
+**or**
+
+**Run an argument from a list file (used the next line after the one you specified to run the file)**
 
 **(ex.  line 10, argument in line 11):**
 
