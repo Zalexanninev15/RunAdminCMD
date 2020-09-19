@@ -1,4 +1,4 @@
-# RunAdminCMD | [Latest release](https://github.com/Zalexanninev15/RunAdminCMD/releases/tag/1.2.0.7)
+# RunAdminCMD | [Screenshot](https://github.com/Zalexanninev15/RunAdminCMD/blob/master/RunAdminCMD-Screenshot.png) | [Latest release](https://github.com/Zalexanninev15/RunAdminCMD/releases/tag/1.2.0.7)
 ![](https://i.imgur.com/NZpREOk.png)
 ## Description
 Utility for running files and scripts as Administrator. Created to quickly grant Administrator rights to BAT/CMD files.
