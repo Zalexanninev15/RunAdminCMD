@@ -1,5 +1,22 @@
 # RunAdminCMD | [Screenshot](https://github.com/Zalexanninev15/RunAdminCMD/blob/master/RunAdminCMD-Screenshot.png) | [Latest release](https://github.com/Zalexanninev15/RunAdminCMD/releases/tag/1.2.0.7)
 ![](https://i.imgur.com/NZpREOk.png)
+
+<p>
+<a href="https://github.com/Zalexanninev15/RunAdminCMD/releases" target="_blank">
+      <img alt="All releases" src="https://img.shields.io/github/downloads/Zalexanninev15/RunAdminCMD/total.svg?style=for-the-badge&logo=github" />
+    </a>    
+<a href="https://github.com/Zalexanninev15/RunAdminCMD/releases/latest" target="_blank">
+      <img alt="Latest release" src="https://img.shields.io/github/downloads/Zalexanninev15/RunAdminCMD/latest/total.svg?style=for-the-badge&logo=github" />
+    </a>    
+</p>
+<p>
+<a href="https://github.com/Zalexanninev15/RunAdminCMD/stargazers" target="_blank">
+      <img alt="GitHub stars" src="https://img.shields.io/github/stars/Zalexanninev15/RunAdminCMD.svg?style=for-the-badge&logo=github" />
+<a href="https://github.com/Zalexanninev15/RunAdminCMD/blob/master/LICENSE">
+      <img alt="License" src="https://img.shields.io/github/license/Zalexanninev15/RunAdminCMD.svg?style=for-the-badge&logo=github" />
+</a>
+</p>
+
 ## Description
 Utility for running files and scripts as Administrator. Created to quickly grant Administrator rights to BAT/CMD files.
 
