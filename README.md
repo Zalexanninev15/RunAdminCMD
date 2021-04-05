@@ -2,7 +2,7 @@
 
 ![](https://i.imgur.com/NZpREOk.png)
 
-[![](https://img.shields.io/badge/platform-windows-blue.svg)](https://github.com/Zalexanninev15/RunAdminCMD)
+[![](https://img.shields.io/badge/platform-Windows-blue.svg)](https://github.com/Zalexanninev15/RunAdminCMD)
 [![](https://img.shields.io/github/v/release/Zalexanninev15/RunAdminCMD)](https://github.com/Zalexanninev15/RunAdminCMD/releases/latest)
 [![](https://img.shields.io/github/downloads/Zalexanninev15/RunAdminCMD/total.svg)](https://github.com/Zalexanninev15/RunAdminCMD/releases)
 [![](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
