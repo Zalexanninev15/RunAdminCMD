@@ -14,7 +14,7 @@ Utility for running files and scripts as Administrator. Created to quickly grant
 
 ## System requirements
 * **OS:** Windows 7/8/8.1/10
-* **Additional:** Microsoft .NET Framework 4.5
+* **Additional:** .NET Framework 4.5
 
 ## Features
 * Quickly grant Administrator rights
