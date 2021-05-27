@@ -1,6 +1,6 @@
-# RunAdminCMD | [Latest release](https://github.com/Zalexanninev15/RunAdminCMD/releases/tag/1.2.0.7)
+# RunAdminCMD | [Latest release](https://github.com/Zalexanninev15/RunAdminCMD/releases/latest)
 
-![](https://i.imgur.com/NZpREOk.png)
+![](https://github.com/Zalexanninev15/RunAdminCMD/blob/master/Logo.png?raw=true)
 
 [![](https://img.shields.io/badge/OS-Windows-informational?logo=windows)](https://github.com/Zalexanninev15/RunAdminCMD)
 [![](https://img.shields.io/github/v/release/Zalexanninev15/RunAdminCMD)](https://github.com/Zalexanninev15/RunAdminCMD/releases/latest)
