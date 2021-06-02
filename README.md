@@ -10,7 +10,7 @@
 [![](https://img.shields.io/badge/donate-YooMoney-8B3FFD.svg)](https://yoomoney.ru/to/410015106319420)
 
 ## Description
-Utility for running files and scripts as Administrator. Created to quickly grant Administrator rights to BAT/CMD files.
+Utility for running files and scripts as Administrator. Created to quickly grant Administrator rights to BAT/CMD files
 
 ## System requirements
 * **OS:** Windows 7/8/8.1/10
