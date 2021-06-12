@@ -81,4 +81,4 @@ RunAdminCMD -f 10 /next
 
 ## Build
 
-Compile using Visual Studio 2012-2019 or SharpDevelop
+Compile using [SharpDevelop](https://sourceforge.net/projects/sharpdevelop) or [Visual Studio](https://visualstudio.microsoft.com/vs)
