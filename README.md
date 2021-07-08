@@ -6,6 +6,8 @@
 [![](https://img.shields.io/github/v/release/Zalexanninev15/RunAdminCMD)](https://github.com/Zalexanninev15/RunAdminCMD/releases/latest)
 [![](https://img.shields.io/github/downloads/Zalexanninev15/RunAdminCMD/total.svg)](https://github.com/Zalexanninev15/RunAdminCMD/releases)
 [![](https://img.shields.io/github/last-commit/Zalexanninev15/RunAdminCMD)](https://github.com/Zalexanninev15/RunAdminCMD/commits/master)
+[![](https://img.shields.io/github/stars/Zalexanninev15/RunAdminCMD.svg)](https://github.com/Zalexanninev15/RunAdminCMD/stargazers)
+[![](https://img.shields.io/github/forks/Zalexanninev15/RunAdminCMD.svg)](https://github.com/Zalexanninev15/RunAdminCMD/network/members)
 [![](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![](https://img.shields.io/badge/donate-QIWI-FF8C00.svg)](https://qiwi.com/n/ZALEXANNINEV15)
 [![](https://img.shields.io/badge/donate-YooMoney-8B3FFD.svg)](https://yoomoney.ru/to/410015106319420)
