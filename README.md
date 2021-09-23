@@ -3,7 +3,7 @@
 ![](https://github.com/Zalexanninev15/RunAdminCMD/blob/master/Logo.png?raw=true)
 
 [![](https://img.shields.io/badge/OS-Windows-informational?logo=windows)](https://github.com/Zalexanninev15/RunAdminCMD)
-[![](https://img.shields.io/badge/.NET-Framework_4.5-4E2ACD.svg)](https://www.microsoft.com/en-US/download/details.aspx?id=30653)
+[![](https://img.shields.io/badge/.NET-Framework_4.5-4E2ACD.svg)](https://dotnet.microsoft.com/download/dotnet-framework/net45)
 [![](https://img.shields.io/github/v/release/Zalexanninev15/RunAdminCMD)](https://github.com/Zalexanninev15/RunAdminCMD/releases/latest)
 [![](https://img.shields.io/github/downloads/Zalexanninev15/RunAdminCMD/total.svg)](https://github.com/Zalexanninev15/RunAdminCMD/releases)
 [![](https://img.shields.io/github/last-commit/Zalexanninev15/RunAdminCMD)](https://github.com/Zalexanninev15/RunAdminCMD/commits/master)
