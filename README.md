@@ -16,7 +16,7 @@
 Utility for running files and scripts as Administrator. Created to quickly grant Administrator rights to BAT/CMD files
 
 ## System requirements
-* **OS:** Windows 7/8/8.1/10
+* **OS:** Windows 7 or higher
 * **Additional:** .NET Framework 4.5
 
 ## Features
