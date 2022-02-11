@@ -28,7 +28,7 @@ Utility for running files and scripts as Administrator. Created to quickly grant
 
 ### Run with arguments
 
-Run the utility's executable file with a argument that will contain the path to/name of the file to run as Administrator
+Run the utility's executable file with a argument that will contain the path to/name of the file to run as Administrator. **Don't forget the "list.txt", even if you don't use it**
 
 **Example for cmd:**
 
