@@ -99,7 +99,6 @@ RunAdminCMD -f $notepad_app
 ```
 RunAdminCMD -f $ping_app -t github.com
 ```
-
 ** **
 
 **- Run with an argument(s) from the list.txt file (ex. variable from list.txt = $notepad_app, argument = "Hello World"):**
@@ -112,7 +111,7 @@ RunAdminCMD -f notepad_app "Hello World"
 
 ** **
 
-**- Run with an argument(s) from variable from the list.txt file (ex. variable from list.txt = $notepad_app, argument as variable from list.txt = $$ $github)**
+**- Run with an argument(s) from variable from the list.txt file (ex. variable from list.txt = $notepad_app, argument as variable from list.txt = $github)**
 
 ```
 RunAdminCMD.exe -f $notepad_app # github
