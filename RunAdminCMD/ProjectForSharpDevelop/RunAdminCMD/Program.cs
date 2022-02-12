@@ -42,8 +42,8 @@ namespace RunAdminCMD
                         try { Process.Start(cmd_loader);  }
                         catch(Exception ex)
                         {
-                            MessageBox.Show($"It is not possible to start the process \"{args[0]}\" " +
-                            $"as Administrator!\nError: {ex.Message}",
+                            MessageBox.Show("It is not possible to start the process \"" + args[0] + "\" " +
+                            "as Administrator!\nError: " + ex.Message,
                             "Warning",
                             MessageBoxButtons.OK,
                             MessageBoxIcon.Warning);
@@ -51,7 +51,7 @@ namespace RunAdminCMD
                     }
                     catch(Exception ex)
                     {
-                        MessageBox.Show($"Invalid data!\nError: {ex.Message}",
+                        MessageBox.Show("Invalid data!\nError: " + ex.Message,
                         "Error",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Error);
@@ -82,8 +82,8 @@ namespace RunAdminCMD
                                         try { Process.Start(cmd_loader); }
                                         catch(Exception ex)
                                         {
-                                            MessageBox.Show($"It is not possible to start the process \"{runThis}\"" +
-                                            $"as Administrator!\nError: {ex.Message}",
+                                            MessageBox.Show("It is not possible to start the process \"" +
+                                            runThis + "\" as Administrator!\nError: " + ex.Message,
                                             "Warning",
                                             MessageBoxButtons.OK,
                                             MessageBoxIcon.Warning);
@@ -99,7 +99,7 @@ namespace RunAdminCMD
                                 }
                                 catch(Exception ex)
                                 {
-                                    MessageBox.Show($"Invalid data!\nError: {ex.Message}",
+                                    MessageBox.Show("Invalid data!\nError: " + ex.Message,
                                     "Error",
                                     MessageBoxButtons.OK,
                                     MessageBoxIcon.Error);
@@ -122,7 +122,7 @@ namespace RunAdminCMD
         public static void ShowAbout()
         {
             Console.WriteLine("RunAdminCMD" +
-            $"\nVersion: {Application.ProductVersion}" +
+            "\nVersion: " + Application.ProductVersion +
             "\nAuthor: Zalexanninev15" +
             "\nGitHub: https://github.com/Zalexanninev15/RunAdminCMD" +
             "\nLicense: MIT" +
@@ -135,7 +135,7 @@ namespace RunAdminCMD
             string[] list = File.ReadAllLines("list.txt");
             foreach (string item in list)
             {
-                if (item.StartsWith($"${variable}="))
+                if (item.StartsWith("$" + variable + "="))
                     return item.Remove(0, variable.Length + 2);
             }
             return null;
