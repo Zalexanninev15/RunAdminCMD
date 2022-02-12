@@ -3,6 +3,7 @@
 ![](https://github.com/Zalexanninev15/RunAdminCMD/blob/master/Logo.png?raw=true)
 
 [![](https://img.shields.io/badge/OS-Windows-informational?logo=windows)](https://github.com/Zalexanninev15/RunAdminCMD)
+[![](https://img.shields.io/badge/written_on-.NET_Framework_4-512BD4.svg?logo=dotnet)](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net40)
 [![](https://img.shields.io/badge/written_on-.NET_Framework_4.6-512BD4.svg?logo=dotnet)](https://dotnet.microsoft.com/download/dotnet-framework/net4.6)
 [![](https://img.shields.io/badge/written_on-CSharp-239120.svg?logo=csharp)](https://github.com/Zalexanninev15/RunAdminCMD)
 [![](https://img.shields.io/github/v/release/Zalexanninev15/RunAdminCMD)](https://github.com/Zalexanninev15/RunAdminCMD/releases/latest)
@@ -26,7 +27,7 @@ RunAdminCMD -v
 ## System requirements
 
 * **OS:** Windows 7 or higher
-* **Additional:** .NET Framework 4 or higher
+* **Additional:** .NET Framework 4/4.6 or higher
 
 ## Features
 
