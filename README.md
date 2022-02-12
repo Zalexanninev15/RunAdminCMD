@@ -1,4 +1,4 @@
-# RunAdminCMD | [Latest release](https://github.com/Zalexanninev15/RunAdminCMD/releases/latest)
+# RunAdminCMD
 
 ![](https://github.com/Zalexanninev15/RunAdminCMD/blob/master/Logo.png?raw=true)
 
