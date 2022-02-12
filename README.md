@@ -19,7 +19,7 @@ Utility for running files/scripts/apps as Administrator. Created to quickly gran
 
 *Show the utility version:*
 
-```batch
+```
 RunAdminCMD -v
 ```
 
@@ -112,7 +112,7 @@ RunAdminCMD -f notepad_app "Hello World"
 
 
 
-**- Run with an argument(s) from variable from the list.txt file (ex. variable from list.txt = $notepad_app, argument as variable from list.txt = $$ $github)**
+**- Run with an argument(s) from variable from the list.txt file (ex. variable from list.txt = $notepad_app, argument as variable from list.txt = $github)**
 
 ```batch
 RunAdminCMD.exe -f $notepad_app # github
