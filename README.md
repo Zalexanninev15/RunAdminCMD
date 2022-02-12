@@ -3,7 +3,7 @@
 ![](https://github.com/Zalexanninev15/RunAdminCMD/blob/master/Logo.png?raw=true)
 
 [![](https://img.shields.io/badge/OS-Windows-informational?logo=windows)](https://github.com/Zalexanninev15/RunAdminCMD)
-[![](https://img.shields.io/badge/written_on-.NET_Framework_4.5-512BD4.svg?logo=dotnet)](https://dotnet.microsoft.com/download/dotnet-framework/net45)
+[![](https://img.shields.io/badge/written_on-.NET_Framework_4.6-512BD4.svg?logo=dotnet)](https://dotnet.microsoft.com/download/dotnet-framework/net4.6)
 [![](https://img.shields.io/badge/written_on-CSharp-239120.svg?logo=csharp)](https://github.com/Zalexanninev15/RunAdminCMD)
 [![](https://img.shields.io/github/v/release/Zalexanninev15/RunAdminCMD)](https://github.com/Zalexanninev15/RunAdminCMD/releases/latest)
 [![](https://img.shields.io/github/downloads/Zalexanninev15/RunAdminCMD/total.svg)](https://github.com/Zalexanninev15/RunAdminCMD/releases)
@@ -14,74 +14,119 @@
 [![](https://img.shields.io/badge/donate-Buy_Me_a_Coffee-F94400.svg)](https://zalexanninev15.jimdofree.com/buy-me-a-coffee)
 
 ## Description
-Utility for running files and scripts as Administrator. Created to quickly grant Administrator rights to BAT/CMD files
+
+Utility for running files/scripts/apps as Administrator. Created to quickly grant Administrator rights to BAT/CMD files and other apps
+
+*Show the utility version:*
+
+```
+RunAdminCMD -v
+```
 
 ## System requirements
+
 * **OS:** Windows 7 or higher
-* **Additional:** .NET Framework 4.5 or higher
+* **Additional:** .NET Framework 4 or higher
 
 ## Features
+
 * Quickly grant Administrator rights
-* Interesting (in some ways unique) settings for better working with the utility
+* Interesting (in some ways unique) settings for better working with the utility. Interesting (in some way unique) settings. You can start the files/scripts /apps and arguments to them "in old way" and run them from the List.txt file, as well as combine them all. Look more in the next section.
 
 ## How to interact?
 
-### Run with arguments
+### Simple use:
 
-Run the utility's executable file with a argument that will contain the path to/name of the file to run as Administrator. **Don't forget the "list.txt", even if you don't use it**
-
-**Example for cmd:**
+**- Run for file or app:**
 
 ```
-RunAdminCMD C:\Windows\explorer.exe 0
+RunAdminCMD taskmgr
 ```
 
-**Example for cmd (with "spaces"):**
+** **
 
-*If the path to/file name has "spaces", then you must put quotation marks ("")*
-
-```
-RunAdminCMD "C:\scripts wifi\Enable WiFi.cmd" 0
-```
-**Example for cmd (with 1 argument for other file):**
+**- Run for scripts or app with argument:**
 
 ```
-RunAdminCMD PingCMD.bat google.com
+RunAdminCMD explorer.exe C:\Windows\System32
 ```
-*To add support to the BAT/CMD file, you need to insert the element "%1%" in the section of the script that should accept it. [Here](https://github.com/Zalexanninev15/RunAdminCMD/blob/master/PingCMD.bat) is an example using the "ping" utility in a batch script.* 
 
-*You can't use quotation marks ("") to support "spaces" (in arguments)!*
+***Note:*** *To add support to the BAT/CMD file, you need to insert the element **%1** (or more after it to support the arguments in its batch scripts) in the section of the script that should accept it. [Here](https://github.com/Zalexanninev15/RunAdminCMD/blob/master/PingCMD.bat) is an example using the "ping" utility in a batch script.* 
 
-### Run using a file "list.txt"
-1. In the "list.txt" file (open using [Notepad++](https://notepad-plus-plus.org/)), enter the path to the file that needs Administrator rights (it is better to just put the desired file in the folder with the utility and just write the file name of this file).
+** **
+
+**- Run a scripts or apps with arguments**
+
+```
+RunAdminCMD PingCMD.bat -t google.com
+```
+
+***Note:*** *To add support to the BAT/CMD file, you need to insert the element **%1** (or more after it to support the arguments in its batch scripts) in the section of the script that should accept it. [Here](https://github.com/Zalexanninev15/RunAdminCMD/blob/master/PingCMD.bat) is an example using the "ping" utility in a batch script.* 
+
+### Extended use (using variables):
+
+**- Basics:**
+
+1. In the **list.txt** file enter the variables with the value needed to start the file/script/app that needs Administrator rights (it is better to just put the desired file in the folder with the utility and just write the file name of this file).
+
+Example, text in the **list.txt** file: 
+
+```
+$ping_app=ping
+$ping_arguments=-t google.com
+$notepad_app=notepad
+$github="I love GitHub"
+```
+
+***Note:*** *The dollar sign ($) must be present at the beginning, before the variable name*
 
 2. Run the utility:
 
 ```
-RunAdminCMD -f 1 0
+RunAdminCMD -f $notepad_app
 ```
 
-*Where the second argument is a number indicating the number of the line with the desired file!*
+***Notes:***
 
-**It is also possible to run with an argument for other file (ex: line 10, argument "-reset"):**
+- *After argument **-f**, write a variable from the **list.txt** file with the way to the file/script/app you want to run*
 
-```
-RunAdminCMD -f 10 -reset
-```
+- *When entering variable(s) when running RunAdminCMD to load a value from **list.txt** file, you can remove the dollar sign ($). Be sure to put this sign in the **list.txt** file itself!*
 
-**or**
+** **
 
-**Run an argument from a list file (used the next line after the one you specified to run the file)**
-
-**(ex.  line 10, argument in line 11):**
+**- It is also possible to run with an argument(s) (ex: variable from list.txt = $ping_app, argument = -t github.com):**
 
 ```
-RunAdminCMD -f 10 /next
+RunAdminCMD -f $ping_app -t github.com
 ```
 
-*To add support to the BAT/CMD file, you need to insert the element "%1%" in the section of the script that should accept it. [Here](https://github.com/Zalexanninev15/RunAdminCMD/blob/master/PingCMD.bat) is an example using the "ping" utility in a batch script.* 
+** **
 
-*You can't use quotation marks ("") to support "spaces" (in arguments); only run an argument with "spaces" from a list file (not use quotation marks)!*
+**- Run with an argument(s) from the list.txt file (ex. variable from list.txt = $notepad_app, argument = "Hello World"):**
+
+```
+RunAdminCMD -f notepad_app "Hello World"
+```
+
+***Note:*** *When entering variable(s) when running RunAdminCMD to load a value from **list.txt** file, you can remove the dollar sign ($). Be sure to put this sign in the **list.txt** file itself!*
+
+** **
+
+**- Run with an argument(s) from variable from the list.txt file (ex. variable from list.txt = $notepad_app, argument as variable from list.txt = $$ $github)**
+
+```
+RunAdminCMD.exe -f $notepad_app # github
+```
+
+** **
+
+**- Run the script or app not from variable and with an argument(s) from variable from the list.txt file (ex: file/script/app = your value :), argument as variable from list.txt = $ping_arguments)**
+
+```
+RunAdminCMD.exe PingCMD.bat # ping_arguments
+```
+
+***Note:*** *To add support to the BAT/CMD file, you need to insert the element **%1** (or more after it to support the arguments in its batch scripts) in the section of the script that should accept it. [Here](https://github.com/Zalexanninev15/RunAdminCMD/blob/master/PingCMD.bat) is an example using the "ping" utility in a batch script.* 
 
 ## Build
 

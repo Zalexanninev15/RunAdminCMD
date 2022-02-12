@@ -1,3 +1,2 @@
 @echo off
-ping %1%
-pause
+ping %1 %2
