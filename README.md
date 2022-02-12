@@ -3,7 +3,6 @@
 ![](https://github.com/Zalexanninev15/RunAdminCMD/blob/master/Logo.png?raw=true)
 
 [![](https://img.shields.io/badge/OS-Windows-informational?logo=windows)](https://github.com/Zalexanninev15/RunAdminCMD)
-[![](https://img.shields.io/badge/written_on-.NET_Framework_4-512BD4.svg?logo=dotnet)](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net40)
 [![](https://img.shields.io/badge/written_on-.NET_Framework_4.6-512BD4.svg?logo=dotnet)](https://dotnet.microsoft.com/download/dotnet-framework/net4.6)
 [![](https://img.shields.io/badge/written_on-CSharp-239120.svg?logo=csharp)](https://github.com/Zalexanninev15/RunAdminCMD)
 [![](https://img.shields.io/github/v/release/Zalexanninev15/RunAdminCMD)](https://github.com/Zalexanninev15/RunAdminCMD/releases/latest)
@@ -20,14 +19,14 @@ Utility for running files/scripts/apps as Administrator. Created to quickly gran
 
 *Show the utility version:*
 
-```
+```batch
 RunAdminCMD -v
 ```
 
 ## System requirements
 
 * **OS:** Windows 7 or higher
-* **Additional:** .NET Framework 4/4.6 or higher
+* **Additional:** .NET Framework 4 or higher
 
 ## Features
 
@@ -40,25 +39,25 @@ RunAdminCMD -v
 
 **- Run for file or app:**
 
-```
+```batch
 RunAdminCMD taskmgr
 ```
 
-** **
+
 
 **- Run for scripts or app with argument:**
 
-```
+```batch
 RunAdminCMD explorer.exe C:\Windows\System32
 ```
 
 ***Note:*** *To add support to the BAT/CMD file, you need to insert the element **%1** (or more after it to support the arguments in its batch scripts) in the section of the script that should accept it. [Here](https://github.com/Zalexanninev15/RunAdminCMD/blob/master/PingCMD.bat) is an example using the "ping" utility in a batch script.* 
 
-** **
+
 
 **- Run a scripts or apps with arguments**
 
-```
+```batch
 RunAdminCMD PingCMD.bat -t google.com
 ```
 
@@ -72,7 +71,7 @@ RunAdminCMD PingCMD.bat -t google.com
 
 Example, text in the **list.txt** file: 
 
-```
+```ini
 $ping_app=ping
 $ping_arguments=-t google.com
 $notepad_app=notepad
@@ -83,7 +82,7 @@ $github="I love GitHub"
 
 2. Run the utility:
 
-```
+```batch
 RunAdminCMD -f $notepad_app
 ```
 
@@ -97,32 +96,33 @@ RunAdminCMD -f $notepad_app
 
 **- It is also possible to run with an argument(s) (ex: variable from list.txt = $ping_app, argument = -t github.com):**
 
-```
+```batch
 RunAdminCMD -f $ping_app -t github.com
 ```
-** **
+
+
 
 **- Run with an argument(s) from the list.txt file (ex. variable from list.txt = $notepad_app, argument = "Hello World"):**
 
-```
+```batch
 RunAdminCMD -f notepad_app "Hello World"
 ```
 
 ***Note:*** *When entering variable(s) when running RunAdminCMD to load a value from **list.txt** file, you can remove the dollar sign ($). Be sure to put this sign in the **list.txt** file itself!*
 
-** **
 
-**- Run with an argument(s) from variable from the list.txt file (ex. variable from list.txt = $notepad_app, argument as variable from list.txt = $github)**
 
-```
+**- Run with an argument(s) from variable from the list.txt file (ex. variable from list.txt = $notepad_app, argument as variable from list.txt = $$ $github)**
+
+```batch
 RunAdminCMD.exe -f $notepad_app # github
 ```
 
-** **
+
 
 **- Run the script or app not from variable and with an argument(s) from variable from the list.txt file (ex: file/script/app = your value :), argument as variable from list.txt = $ping_arguments)**
 
-```
+```batch
 RunAdminCMD.exe PingCMD.bat # ping_arguments
 ```
 
