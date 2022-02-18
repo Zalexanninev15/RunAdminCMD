@@ -24,15 +24,15 @@ Utility for running files/scripts/apps as Administrator. Created to quickly gran
 RunAdminCMD -v
 ```
 
-## System requirements
-
-* **OS:** Windows 7 or higher
-* **Additional:** .NET Framework 4 or higher
-
 ## Features
 
 * Quickly grant Administrator rights
 * Interesting (in some ways unique) settings for better working with the utility. Interesting (in some way unique) settings. You can start the files/scripts /apps and arguments to them "in old way" and run them from the List.txt file, as well as combine them all. Look more in the next section.
+
+## System requirements
+
+* **OS:** Windows 7 or higher
+* **Additional:** .NET Framework 4 or higher
 
 ## How to interact?
 
