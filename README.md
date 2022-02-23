@@ -11,6 +11,7 @@
 [![](https://img.shields.io/github/last-commit/Zalexanninev15/RunAdminCMD)](https://github.com/Zalexanninev15/RunAdminCMD/commits/master)
 [![](https://img.shields.io/github/stars/Zalexanninev15/RunAdminCMD.svg)](https://github.com/Zalexanninev15/RunAdminCMD/stargazers)
 [![](https://img.shields.io/github/forks/Zalexanninev15/RunAdminCMD.svg)](https://github.com/Zalexanninev15/RunAdminCMD/network/members)
+[![](https://img.shields.io/github/issues-closed/Zalexanninev15/RunAdminCMD.svg)](https://github.com/Zalexanninev15/RunAdminCMD/issues?q=is%3Aissue+is%3Aclosed)
 [![](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![](https://img.shields.io/badge/donate-Buy_Me_a_Coffee-F94400.svg)](https://zalexanninev15.jimdofree.com/buy-me-a-coffee)
 
