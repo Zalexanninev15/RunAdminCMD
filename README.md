@@ -29,7 +29,7 @@ RunAdminCMD -v
 ## Features
 
 * Quickly grant Administrator rights
-* Interesting (in some ways unique) settings for better working with the utility. Interesting (in some way unique) settings. You can start the files/scripts /apps and arguments to them "in old way" and run them from the List.txt file, as well as combine them all. Look more in the next section.
+* Interesting (in some ways unique) settings for better working with the utility. You can start the files/scripts/apps and arguments to them "in old way" or run them from the **list.txt** file, as well as combine them all
 
 ## System requirements
 
